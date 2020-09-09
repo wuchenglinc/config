@@ -1,0 +1,6 @@
+pring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_cloud_home_work?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
