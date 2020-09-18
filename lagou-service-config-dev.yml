@@ -1,12 +1,12 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/spring_cloud_home_work?useUnicode=true&characterEncoding=utf8
+  datasource2:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_cloud_home_work?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf8
     username: root
     password: root
 
   #邮箱服务
-  mail:
+  mail2:
     host: smtp.qq.com
     username: 648672705@qq.com
     password: encgvjzwgqlibgai
