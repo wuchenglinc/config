@@ -4,3 +4,14 @@ spring:
     url: jdbc:mysql://localhost:3306/spring_cloud_home_work?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
+
+  #邮箱服务
+  mail:
+    host: smtp.qq.com
+    username: 648672705@qq.com
+    password: encgvjzwgqlibgai
+#防暴刷参数
+ipfilter:
+  time-limit: 60000
+  count-limit: 3
+  
